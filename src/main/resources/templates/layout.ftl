@@ -28,7 +28,7 @@
     <link href="/css/owl.theme.css" rel="stylesheet">
 
     <!-- theme stylesheet -->
-    <link href="/css/style.default.css" rel="stylesheet" id="theme-stylesheet">
+    <link href="/css/style.green.css" rel="stylesheet" id="theme-stylesheet">
 
     <!-- your stylesheet with modifications -->
     <link href="/css/custom.css" rel="stylesheet">
@@ -48,7 +48,7 @@
     <div id="top">
         <div class="container">
             <div class="col-md-6 offer" data-animate="fadeInDown">
-                <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
+                <a href="#" class="btn btn-success btn-sm">Offer of the day</a>  <a href="#">Get flat 35% off on orders over $50!</a>
             </div>
             <div class="col-md-6" data-animate="fadeInDown">
                 <ul class="menu">
@@ -120,9 +120,9 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="/" data-animate-hover="bounce">
-                    <img src="/img/TISCON_LOGO.png" alt="TISCON logo" class="hidden-xs">
-                    <img src="/img/TISCON_LOGO.png" alt="TISCON logo" class="visible-xs"><span class="sr-only">go to homepage</span>
+                <a class="navbar-brand home" href="/">
+                    <img src="/img/TISCON2.jpg" alt="TISCON logo" class="hidden-xs">
+                    <img src="/img/TISCON2.jpg" alt="TISCON logo" class="visible-xs"><span class="sr-only">go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
@@ -144,10 +144,10 @@
 
                 <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <a href="/">Home</a>
+                        <a href="/">ホーム</a>
                     </li>
                     <li class="dropdown yamm-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Movie <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">映画 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
@@ -169,7 +169,7 @@
                     </li>
 
                     <li class="dropdown yamm-fw">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Music <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">音楽 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
                                 <div class="yamm-content">
@@ -272,7 +272,7 @@
 
                         <h4>Ranking</h4>
 
-                        <h5>Movie</h5>
+                        <h5>映画</h5>
                         <ul>
                             <#list movieGenres as movie>
                                 <li><a href="/category?genreId=33&subgenreId=${movie.id}">${movie.name}</a></li>
@@ -322,8 +322,8 @@
                         <h4>Stay in touch</h4>
 
                         <p class="social">
-                            <a href="http://www.facebook.com/tis.recruit" class="facebook external" data-animate-hover="shake"><i class="fa fa-facebook"></i></a>
-                            <a href="mailto:recruit★tis.co.jp" class="email external" data-animate-hover="shake"><i class="fa fa-envelope"></i></a>
+                            <a href="http://www.facebook.com/tis.recruit" class="facebook external"><i class="fa fa-facebook"></i></a>
+                            <a href="mailto:recruit★tis.co.jp" class="email external"><i class="fa fa-envelope"></i></a>
                             <h6>メールアドレスの★を@に変換してください。</h6>
                         </p>
 
